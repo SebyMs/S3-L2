@@ -267,6 +267,9 @@
               element !== "è" &&
               element !== "A"
           );
+          newerString = newString.join(" ");
+          console.log(newerString);
+          body[i].innerText = newerString;
         }
       };
       deleteVowels();
